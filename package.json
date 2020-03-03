@@ -1,0 +1,14 @@
+{
+  "name": "docz-test",
+  "version": "1.0.0",
+  "scripts": {
+    "docz:dev": "docz dev --port 3001",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
+  },
+  "dependencies": {
+    "docz": "^2.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
